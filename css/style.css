@@ -103,14 +103,14 @@ nav {
     margin-bottom: 20px;
 }
 
-.triangle-image {
-    max-width: 30%; 
-    height: auto;
-}
-
-.parallelogram-image {
+.triangle-image, .parallelogram-image {
     max-width: 50%; 
     height: auto;
+    transition: transform 0.3s;
+}
+
+.triangle-image:hover, .parallelogram-image:hover {
+    transform: scale(1.1);
 }
 
 .calculator-section form {
