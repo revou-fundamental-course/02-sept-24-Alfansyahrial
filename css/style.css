@@ -104,12 +104,12 @@ nav {
 }
 
 .triangle-image {
-    max-width: 50%; /* Mengurangi ukuran gambar menjadi 30% dari lebar kontainer */
+    max-width: 30%; 
     height: auto;
 }
 
 .parallelogram-image {
-    max-width: 50%; /* Mengurangi ukuran gambar menjadi 50% dari lebar kontainer */
+    max-width: 50%; 
     height: auto;
 }
 
@@ -152,16 +152,16 @@ nav {
 }
 
 .calculator-section button {
-    padding: 10px; /* Mengurangi padding untuk memperkecil ukuran tombol */
-    font-size: 1em; /* Mengurangi ukuran font untuk memperkecil ukuran tombol */
-    color: #000; /* Mengubah warna teks menjadi hitam */
+    padding: 10px; 
+    font-size: 1em; 
+    color: #000; 
     background-color: #ffcc00;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 10px; /* Menambahkan margin atas untuk memberi jarak antara input dan tombol */
-    width: 100%; /* Menyamakan lebar tombol dengan input */
+    margin-top: 10px; 
+    width: 100%; 
 }
 
 .calculator-section button:hover {
@@ -171,5 +171,15 @@ nav {
 .calculator-section p {
     font-size: 1.2em;
     color: #333;
+    margin-top: 10px; 
+}
+
+.result {
+    font-size: 1.5em; 
+    color: #ff0000; 
+    background-color: #ffffe0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-top: 10px; 
 }
 
